@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+        MENU DE ITEM EN CAPA
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_zoom_extent"
+        android:orderInCategory="1"
+        android:title="@string/menu_zoom_extent"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_download_tiles"
+        android:orderInCategory="10"
+        android:title="@string/menu_download_tiles"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:orderInCategory="15"
+        android:title="@string/menu_share"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_edit"
+        android:orderInCategory="30"
+        android:title="@string/action_edit"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_delete"
+        android:orderInCategory="40"
+        android:title="@string/menu_delete"/>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="50"
+        android:title="@string/action_settings"/>
+
+</menu>
